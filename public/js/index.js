@@ -13,7 +13,7 @@ const toggleNavbarSticky = () => {
   }
 };
 
-window.addEventListener('scroll', () => toggleNavbarSticky);
+window.addEventListener('scroll', toggleNavbarSticky);
 
 // Navbar: Mobile menu
 function mobileMenu() {
